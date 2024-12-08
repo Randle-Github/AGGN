@@ -10,6 +10,9 @@
 
 ## Overview  
 ---
+
+![Pipeline](gif/pipeline.png)
+
 This repository provides the implementation for **Adaptive Affinity-Graph Network (AAGN)**, a novel approach for automatic human body reshaping. The automatic human body reshaping task focuses on transforming a given portrait into an aesthetically enhanced body shape. AAGN enhances global consistency and aesthetic quality. Adaptive Affinity-Graph (AAG) Block: Captures global affinities between body parts for consistent reshaping. Body Shape Discriminator (BSD): Focuses on high-frequency details for improved aesthetics.
 
 Here are visual results showcasing the transformations achieved by AAGN:  
