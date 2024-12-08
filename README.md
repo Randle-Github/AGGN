@@ -19,16 +19,16 @@ Here are visual results showcasing the transformations achieved by AAGN:
 
 <table>
   <tr>
-    <td><img src="gif/1.gif" alt="GIF 1" width="200"></td>
-    <td><img src="gif/2.gif" alt="GIF 2" width="200" ></td>
-    <td><img src="gif/3.gif" alt="GIF 3" width="200"></td>
-    <td><img src="gif/4.gif" alt="GIF 4" width="200"></td>
+    <td><img src="gif/1.gif" alt="GIF 1" width="180"></td>
+    <td><img src="gif/2.gif" alt="GIF 2" width="180" ></td>
+    <td><img src="gif/3.gif" alt="GIF 3" width="180"></td>
+    <td><img src="gif/4.gif" alt="GIF 4" width="180"></td>
   </tr>
   <tr>
-    <td><img src="gif/5.gif" alt="GIF 5" width="200"></td>
-    <td><img src="gif/6.gif" alt="GIF 6" width="200"></td>
-    <td><img src="gif/7.gif" alt="GIF 7" width="200"></td>
-    <td><img src="gif/8.gif" alt="GIF 8" width="200"></td>
+    <td><img src="gif/5.gif" alt="GIF 5" width="180"></td>
+    <td><img src="gif/6.gif" alt="GIF 6" width="180"></td>
+    <td><img src="gif/7.gif" alt="GIF 7" width="180"></td>
+    <td><img src="gif/8.gif" alt="GIF 8" width="180"></td>
   </tr>
 </table>
 
