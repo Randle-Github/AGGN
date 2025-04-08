@@ -371,6 +371,5 @@ if __name__ == '__main__':
         process_data(src_img_path, gt_img_path, outflow_path)
         shutil.copyfile(src_img_path, os.path.join(out_path, img_name + '_src' + '.jpg'))
         shutil.copyfile(gt_img_path, os.path.join(out_path, img_name + '_gt' + '.jpg'))
-        exit()
         
 
