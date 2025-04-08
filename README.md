@@ -45,14 +45,25 @@ We utilize the **BR-5K dataset**, the largest dataset for human body reshaping t
 &#8226; python >= 3.7
 &#8226; torch >= 1.2.0
 
-### Pretrained Models
-
-Our checkpoint:
-
-### Run the Demo
+### Prepare the data
+After obtaining the BR-5K dataset, move the `` src `` folder and `` gt `` folder inside it to the data folder of this repository. The directory structure will look like this: 
 <pre>
 <code>
-python demo.py --dir
+./data/
+./data/gt/
+  ├── 09084aeda464bfc66.jpg
+  ├── 9a3737d2ddbedfbb2.jpg
+  └── ...
+./data/src/
+  ├── 09084aeda464bfc66.jpg
+  ├── 9a3737d2ddbedfbb2.jpg
+  └── ...
+</code>
+</pre>
+Then run the optical flow estimation script:
+<pre>
+<code>
+python pwcnet/create_data.py
 </code>
 </pre>
 
