@@ -67,7 +67,7 @@ Generate skeleton maps:
 python mmpose/generate_skeleton.py
 </code>
 </pre>
-Then run the optical flow estimation script:
+Run the optical flow estimation script:
 <pre>
 <code>
 python pwcnet/create_data.py
