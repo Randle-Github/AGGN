@@ -59,6 +59,12 @@ After obtaining the BR-5K dataset, move the `` src `` folder and `` gt `` folder
   └── ...
 </code>
 </pre>
+Generate skeleton maps:
+<pre>
+<code>
+python mmpose/generate_skeleton.py
+</code>
+</pre>
 Then run the optical flow estimation script:
 <pre>
 <code>

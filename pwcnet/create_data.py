@@ -351,25 +351,13 @@ def process_data(src_img_path, gt_img_path, outflow_path):
 
 if __name__ == '__main__':
 
-    data_path = os.path.join(os.getcwd(), 'data')
-    src_path = os.path.join(data_path, 'src')
-    gt_path = os.path.join(data_path, 'gt')
-    img_list = os.listdir(src_path)
-
+    data_path = os.path.join(os.getcwd(), 'data', 'collected_data')
+    img_list = os.listdir(data_path)
     print('------generate the optical flow------')
     for img_id in tqdm(img_list):
-        src_img_path = os.path.join(src_path, img_id)
-        gt_img_path = os.path.join(gt_path, img_id)
-        img_name = img_id.split('.')[0]
-        out_path = os.path.join(data_path, 'data', img_name)
-        flow_id = img_name + '_flow.npy'
-        if not os.path.exists(out_path):
-            os.makedirs(out_path)
-        outflow_path = os.path.join(out_path, flow_id)
-        if os.path.exists(outflow_path):
-            continue
-        process_data(src_img_path, gt_img_path, outflow_path)
-        shutil.copyfile(src_img_path, os.path.join(out_path, img_name + '_src' + '.jpg'))
-        shutil.copyfile(gt_img_path, os.path.join(out_path, img_name + '_gt' + '.jpg'))
+        src_img_path = os.path.join(data_path, img_id, img_id + '_src' + '.jpg')
+        gt_img_path = os.path.join(data_path, img_id, img_id + '_gt' + '.jpg')
+        out_path = os.path.join(data_path, img_id, img_id + '_flow' + '.npy')
+        process_data(src_img_path, gt_img_path, out_path)
         
 
