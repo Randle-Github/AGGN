@@ -59,7 +59,9 @@ After obtaining the BR-5K dataset, move the `` src `` folder and `` gt `` folder
   └── ...
 </code>
 </pre>
-Generate skeleton maps ([Checkpoints of pose model and detection model](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose#body-2d)):
+Then download the [detection model](https://download.openmmlab.com/mmpose/v1/projects/rtmpose/rtmdet_m_8xb32-100e_coco-obj365-person-235e8209.pth) and the [pose model](https://download.openmmlab.com/mmpose/v1/projects/rtmposev1/rtmpose-x_simcc-body7_pt-body7_700e-384x288-71d7b7e9_20230629.pth) and put them into the `` mmpose `` folder.
+
+Generate skeleton maps:
 <pre>
 <code>
 python mmpose/generate_skeleton.py
