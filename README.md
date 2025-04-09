@@ -59,7 +59,7 @@ After obtaining the BR-5K dataset, move the `` src `` folder and `` gt `` folder
   └── ...
 </code>
 </pre>
-Generate skeleton maps ([Checkpoints of pose model and detection model](https://github.com/JianqiangRen/FlowBasedBodyReshaping?tab=readme-ov-file)):
+Generate skeleton maps ([Checkpoints of pose model and detection model](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose#body-2d)):
 <pre>
 <code>
 python mmpose/generate_skeleton.py
