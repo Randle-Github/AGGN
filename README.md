@@ -67,7 +67,7 @@ Generate skeleton maps:
 python mmpose/generate_skeleton.py
 </code>
 </pre>
-Run the optical flow estimation script:
+Run the optical flow estimation script: (this step requires the `` cupy `` package, but directly installing it via pip may encounter some issues. We recommend downloading its [wheel file](https://files.pythonhosted.org/packages/fe/19/b5fc30ab79014d7f7e4403735717111f8e69468b8a8804a882b717bedc88/cupy_cuda110-7.8.0-cp37-cp37m-manylinux1_x86_64.whl) for installation instead)
 <pre>
 <code>
 python pwcnet/create_data.py
