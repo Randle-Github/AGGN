@@ -46,7 +46,7 @@ We utilize the **BR-5K dataset**, the largest dataset for human body reshaping t
 &#8226; torch >= 1.2.0
 
 ### Prepare the data
-After obtaining the BR-5K dataset, move the `` src `` folder and `` gt `` folder inside it to the `` data `` folder of this repository. The directory structure will look like this (if you want to use custom dataset, you can also organize files in this form): 
+After obtaining the BR-5K dataset, move the `` src `` folder and `` gt `` folder inside it to the `` data `` folder of this repository. The directory structure will look like this (if you want to use customized dataset, you can also organize files in this form): 
 <pre>
 <code>
 ./data/gt/
