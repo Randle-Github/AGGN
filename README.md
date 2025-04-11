@@ -32,10 +32,10 @@ Here are visual results showcasing the transformations achieved by AAGN:
   </tr>
 </table>
 
-## BR5K Dataset
+## Obtain BR5K Dataset
 --- 
 
-We utilize the **BR-5K dataset**, the largest dataset for human body reshaping tasks. The dataset preparation process follows the guidelines provided by the [FBBR repository](https://github.com/JianqiangRen/FlowBasedBodyReshaping?tab=readme-ov-file).   
+We utilize the **BR-5K dataset**, the largest dataset for human body reshaping tasks. Obtain the dataset according to the instructions from [FBBR repository](https://github.com/JianqiangRen/FlowBasedBodyReshaping?tab=readme-ov-file). 
 
 
 ## Get Started
