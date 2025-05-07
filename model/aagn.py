@@ -368,19 +368,4 @@ class FlowGenerator(nn.Module):
         flow = flow.permute(0, 2, 3, 1) 
 
         return  flow
-
-
-if __name__ == "__main__":
-
-    model = FlowGenerator(n_channels = 16)
-
-    device = torch.device('cuda:2')
-
-    model.to(device)
-    in_tensor = torch.rand([2,3,256,256],dtype=torch.float32)
-    skeleton_tensor = torch.rand([2,13,256,256],dtype=torch.float32)
-    in_tensor = in_tensor.to(device)
-    skeleton_tensor = skeleton_tensor.to(device)
-
-    flow = model(in_tensor, skeleton_tensor)
-    print('flow shape:{}'.format(flow.shape))
+    

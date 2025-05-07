@@ -69,9 +69,6 @@ class Discriminator(nn.Module):
         batch_size = x.size(0)
         return torch.sigmoid(self.net(x).view(batch_size))
     
-if __name__ == "__main__":
-
-    net_D = Discriminator()
 
 
 
